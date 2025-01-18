@@ -15,6 +15,11 @@ function App() {
             <Button id={data.idName} keys={data.keyName} name={data.audioName} key={data.keyName} />
           ))
         }
+        <div className="mt-4 text-center">
+        <a href="https://github.com/PriteshThorat/Build-a-Drum-Machine" className="text-blue-500 hover:underline">
+          Source code
+        </a>
+        </div>
       </div>
       <div
         id="display"
